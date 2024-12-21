@@ -1,39 +1,14 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Tienda</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Enlace a tu archivo CSS -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aventura de Pixeles</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <header>
-        <h1>Bienvenido a Mi Tienda</h1>
-        <button id="whatsapp-button">Enviar Pedido por WhatsApp</button>
-        <span id="cart-count">0</span> <!-- Contador del carrito -->
-    </header>
-
-    <main>
-        <div id="products-page">
-            <div id="products-grid"></div>
-        </div>
-        <div id="cart-page" style="display: none;">
-            <h2>Carrito de Compras</h2>
-            <div id="cart-items"></div>
-            <div id="cart-total">Total: $0.00</div>
-        </div>
-        <div id="wish-list-page" style="display: none;">
-            <h2>Lista de Deseos</h2>
-            <div id="wish-list-items"></div>
-        </div>
-    </main>
-
-    <div id="product-modal" style="display: none;">
-        <div id="modal-product-details"></div>
-        <button onclick="closeModal()">Cerrar</button>
-    </div>
-
-    <script src="script.js"></script> <!-- Enlace a tu archivo JavaScript -->
+  <h1>Aventura de Pixeles</h1>
+  <canvas id="gameCanvas" width="800" height="400"></canvas>
+  <script src="script.js"></script>
 </body>
 </html>
